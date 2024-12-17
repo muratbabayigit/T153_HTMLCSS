@@ -23,14 +23,31 @@
         <div class="section">
             <div class="card">
                 <form action="saveToDb.aspx">
-                    <div class="form-row" id="fullName">
-                        <label for="fullName">Full Name:</label>
-                    </div> <input type="text">
-                    <div class="form-row"></div>
-                    <div class="form-row"></div>
-                    <div class="form-row"></div>
-                    <div class="form-row"></div>
-                    <div class="form-row" ></div>
+                    <div class="form-row" id="fullname">
+                        <label for="fullName">Full Name:<input type="text"></label>
+                    </div>
+                    <div class="form-row" id="email">
+                        <label for="email">E-Mail:<input type="email"></label>
+                    </div>
+                    <div class="form-row" id="phoneNumber">
+                        <label for="phoneNumber">Phone Number:</label><input type="number">
+                    </div>
+                    <div class="form-row" id="city">City:
+                       <select name="city" >
+                        <option value="city1">Ankara</option>
+                        <option value="city2">Kırıkkale</option>
+                        <option value="city3">İstanbul</option>
+                        <option value="city4">İzmir</option>
+                        <option value="city5">Bursa</option>
+                        <option value="city6">Gaziantep</option>
+                       </select>
+                    </div>
+                    <div class="form-row" id="message">
+                        <label for="message">Your Message: <textarea></textarea></label>
+                    </div><br>
+                    <button type="submit">SEND</button><button type="reset">CLEAR</button>
+
+                    
 
                 </form>
             </div>
