@@ -72,7 +72,7 @@ a{
 
 }
 .section {
-    width: 60%;
+    width:50%;
 }
 
 .section .cards{
@@ -96,4 +96,24 @@ a{
    
     flex: 3;
 }
+input, textarea, select {
+    border: 2px solid rgb(255, 132, 0);
+    width:230%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    align-items: center;
 
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(255, 132, 0);
+    border-radius: 5px;
+    background-color: rgb(168, 81, 5);
+    color: rgb(255, 222, 202);
+    font-weight: bold;
+    font-size: 20px;
+   justify-content: flex-end;
+}
